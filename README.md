@@ -58,7 +58,7 @@ corresponding to it, and two bank cards are equivalent if they correspond to the
 account. It’s very difficult to read the account number off a bank card directly, but the
 bank has a high-tech “equivalence tester” that takes two bank cards and, after
 performing some computations, determines whether they are equivalent.
-Their question is the following: among the collection of  cards, is there a set of more
+Their question is the following: among the collection of n cards, is there a set of more
 thann/2 ofthem that are all equivalent to one another? Assume that the only feasible
 operations you can do with the cards are to pick two of them and plug them in to the
 equivalence tester. Show how to decide the answer to their question with only O(n log
