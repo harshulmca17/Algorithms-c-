@@ -21,7 +21,7 @@ within less than or equal to 5 miles of each other. You had like to place billbo
 a subset of the sites so as to maximize your total revenue, subject to this restriction.
 Example: Suppose M=20, n=4
 {x1,x2,x3,x4} = {6,7,12,14} and {r1,r2,r3,r4} = {5,6,5,1}
-Then the optimal solution would be to place billboards at  and  for total revenue
+Then the optimal solution would be to place billboards at x1 and x3 for total revenue
 of 10.
 Give an algorithm that takes an instance of this problem as input and returns the
 maximum total revenue that can be obtained from any valid subsets of sites.
