@@ -18,7 +18,7 @@ int min_distance(int dist[],bool sptSet[],int n){
     return min_index;
 }
 
-void dijikstra(int n,int graph[][30],int src){
+void dijkstra(int n,int graph[][30],int src){
     int dist[n];      //list of the distance of each vertex from source - src
     bool sptSet[n]; //check if the vertex is included in the shortest path
     int cnt,u;
@@ -53,6 +53,6 @@ int main(){
             std::cin >> graph[i][j];
         }
     }
-    dijikstra(n,graph,0);
+    dijkstra(n,graph,0);
     return 0;
 }
