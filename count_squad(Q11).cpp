@@ -33,8 +33,8 @@ int main()
         std::cout<<num;
         std::cout<<"\nDo you want to continue: ";
         std::cin >>ch;
-    }
-    while(ch=='y'||ch=='Y');
+	    
+    } while(ch=='y'||ch=='Y');
     return 0;
 }
 
